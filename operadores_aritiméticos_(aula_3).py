@@ -77,7 +77,10 @@ print('A média da nota é:', media)
 """**Desafio 008**
 
 Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros
-
+metro= int(input('Digite um valor em metros:'))
+cm= metro*100
+mm= metro*1000
+print('{}cm,{}mm'.format(cm, mm))
 
 """
 
@@ -99,20 +102,30 @@ Crie um programa que leia quanto uma pessoa tem na carteira e mostre quantos dó
 
 Considere US$1.00=R$3.27
 """
-
+din= int(input('Quantos reais possui na carteira?'))
+conv= din/3.27
+print('Você poderá comprar {} doláres!'.format(conv))
 
 
 """**Desafio 011**
 
 Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pinta-la, sabendo que cada litro de tinta pinta uma área de 2m²
 """
-
+print('Digite valores em metros!!!')
+altu= int(input('Qual é a altura da parede?'))
+larg= int(input('Qual é a largura da parede?'))
+cal= altu*larg
+tinta= cal/2
+print('A área da parece é de {} m² e a quantidade de tinta necessaária para pintar é de {} litros'.format(cal, tinta))
 
 
 """**Desafio 012**
 
 Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto
 """
+prod= int(input('Digite o preço do produto:'))
+desc= prod*0.95
+print('O preço final do produto com o desconto de 5% é de: {}'.format(desc))
 
 
 
@@ -120,7 +133,9 @@ Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com
 
 Faça um algoritmo que leia o salário de um funcionário  e mostre seu novo salário com 15% de aumento.
 """
-
+slr= int(input('Digite o salário do funcionário:'))
+cal= slr*1.15
+print('O novo salário é de R${}'.format(cal))
 
 
 """**Desafio 014**
@@ -134,4 +149,9 @@ Escreva um programa que converta uma temperatura digitada em Cº para F
 
 Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o custa R$ 60.00  por dia  e  R$ 0.15 por km rodado
 """
-
+km= int(input('Quantos km foram percorridos pelo carro?'))
+dias= int(input('Por quantos dias o carro foi alugado?'))
+calkm= 0.15*km
+caldias= 60.00*dias
+pf= calkm+caldias
+print('O preço a ser pago é de R$ {} '.format(pf))
