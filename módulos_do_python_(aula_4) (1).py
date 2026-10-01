@@ -34,12 +34,48 @@ raiz= sqrt(num)
 print('A raiz de {} é igual a {}'.format(num,raiz))
 
 """**Desafio 016**
+
 Crie um programa que leia um número Real qualquer e mostre na tela a sua porção inteira"""
 
 from math import trunc
 num = float(input('Digite um número real:'))
 pt= trunc(num)
 print(pt)
+
+"""**Desafio 017**
+
+Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo. Calcule e mostre o comprimento da hipotenusa.
+Existe uma função própria para calculo da hipotenusa chamada "hypot""""
+
+import math
+
+cateto_oposto = float(input("Digite o valor do cateto oposto: "))
+cateto_adjacente = float(input("Digite o valor do cateto adjacente: "))
+
+hipotenusa = math.hypot(cateto_oposto, cateto_adjacente)
+
+print("A hipotenusa é: {}".format(hipotenusa))
+
+
+from math import hypot
+
+cateto_oposto = float(input("Digite o valor do cateto oposto: "))
+cateto_adjacente = float(input("Digite o valor do cateto adjacente: "))
+
+hipotenusa = hypot(cateto_oposto, cateto_adjacente)
+print ("A hipotenusa é:",hipotenusa)
+
+
+'Também é possível calcular utilizando sqrt:'
+
+import math
+
+cateto_oposto = float(input("Digite o valor do cateto oposto: "))
+cateto_adjacente = float(input("Digite o valor do cateto adjacente: "))
+
+hipotenusa = math.sqrt(cateto_oposto**2 + cateto_adjacente**2)
+
+print("A hipotenusa é: ", hipotenusa)
 
 
 
