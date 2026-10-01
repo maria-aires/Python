@@ -33,3 +33,13 @@ num = int(input('Digite um número:'))
 raiz= sqrt(num)
 print('A raiz de {} é igual a {}'.format(num,raiz))
 
+"""**Desafio 016**
+Crie um programa que leia um número Real qualquer e mostre na tela a sua porção inteira"""
+
+from math import trunc
+num = float(input('Digite um número real:'))
+pt= trunc(num)
+print(pt)
+
+
+
