@@ -13,8 +13,8 @@ comando "from" é para importar um módulo específico
 **Bibliotecas mais utilizadas:**
 
 math:
-ceil(x)
-florr(x)
+ceil(x)-Teto de x , o menor inteiro maior ou igual a x
+florr(x)-Piso de x , o maior inteiro menor ou igual a x
 trunc(x)
 pow(x)
 sqrt(x)-Raiz quadrada de x
