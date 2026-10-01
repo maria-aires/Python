@@ -13,12 +13,12 @@ comando "from" é para importar um módulo específico
 **Bibliotecas mais utilizadas:**
 
 math:
-ceil
-florr,
-trunc,
-pow,
-sqrt,
-factorial,
+ceil(x)
+florr(x)
+trunc(x)
+pow(x)
+sqrt(x)-Raiz quadrada de x
+factorial(x)
 
 Calculo raiz quadrada
 """
