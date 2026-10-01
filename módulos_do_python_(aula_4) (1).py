@@ -13,7 +13,7 @@ comando "from" é para importar um módulo específico
 **Bibliotecas mais utilizadas:**
 
 math:
-ceil,
+ceil
 florr,
 trunc,
 pow,
