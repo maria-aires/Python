@@ -29,5 +29,13 @@ if media >= 6.0:
 else:
   print('Você esta de recuperação!')
 
-''''Desafio 029
+''''
+**Desafio 29**
 
+Escreva um programa que leia a velocidade de um carro. Se ele ultrapassar 80Km/h, mostre uma mensagem dizendo que ele foi multado. A multa vai custar R$7,00 por cada Km acima do limite.''''
+velocidade= int(input("Digite a velocidade do carro:"))
+multa= (velocidade-80)*7
+if velocidade <=80:
+  print('Dentro do padrãp de velocidade!')
+else:
+  print('Você foi multado no valor de R${}'.format(multa))
