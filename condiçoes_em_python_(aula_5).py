@@ -39,3 +39,9 @@ if velocidade <=80:
   print('Dentro do padrãp de velocidade!')
 else:
   print('Você foi multado no valor de R${}'.format(multa))
+
+""""
+**Desafio 031**
+
+ Desenvolva um programa que pergunte a distância de uma viagem em Km. Calcule o preço da passagem, cobrando 0,50 por Km para viagens de até 200Km e R$0,45 parta viagens mais longas.""""
+
