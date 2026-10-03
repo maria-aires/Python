@@ -98,3 +98,27 @@ print(f"O ângulo de {angulo}° tem o SENO de {seno:.2f}")
 print(f"O ângulo de {angulo}° tem o COSSENO de {cosseno:.2f}")
 print(f"O ângulo de {angulo}° tem a TANGENTE de {tangente:.2f}")
 
+''''**Desafio 19**
+
+Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome dos alunos e escrevendo na tela o nome do escolhido.
+-> Para resolver esse desafio é necessário trabalhar com listas''''
+import random
+
+aluno1 = input("Primeiro aluno: ")
+aluno2 = input("Segundo aluno: ")
+aluno3 = input("Terceiro aluno: ")
+aluno4 = input("Quarto aluno: ")
+
+lista_alunos = [aluno1, aluno2, aluno3, aluno4]
+
+escolhido = random.choice(lista_alunos)
+
+
+print("O aluno escolhido para apagar o quadro foi:", escolhido)
+
+''''**Desafio 20**
+
+O mesmo professor do desafio 19 quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.''''
+
+
+
