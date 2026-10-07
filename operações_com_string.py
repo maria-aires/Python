@@ -29,3 +29,9 @@ print(f"Seu nome tem ao todo {total_letras} letras")
 
 primeiro_nome = nome.split()[0]
 print(f"Seu primeiro nome é {primeiro_nome} e ele tem {len(primeiro_nome)} letras")
+
+''''
+**Desafio 024**
+
+Crie um programa que leia o nome de uma cidade diga se ela começa ou não com o nome “SANTO”.''''
+
