@@ -35,3 +35,6 @@ print(f"Seu primeiro nome é {primeiro_nome} e ele tem {len(primeiro_nome)} letr
 
 Crie um programa que leia o nome de uma cidade diga se ela começa ou não com o nome “SANTO”.''''
 
+cidade = str(input('Digite o nome da cidade: ')).strip().upper()
+
+print(cidade.startswith('SANTO'))
