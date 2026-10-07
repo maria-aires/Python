@@ -7,3 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1UGxTbVQbzvoXEf_DYapR6Jd6_gD9wjyL
 """
 
+''''**Desafio 022**
+
+Crie um programa que leia o nome completo de uma pessoa e mostre:
+
+– O nome com todas as letras maiúsculas e minúsculas.
+
+– Quantas letras ao todo (sem considerar espaços).
+
+– Quantas letras tem o primeiro nome.''''
