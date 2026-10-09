@@ -30,5 +30,12 @@ elif calculo_prestacao <=calculo:
 – O segundo valor é maior
 
 – Não existe valor maior, os dois são iguais''''
-
+num_1= int(input('Digite um número inteiro:'))
+num_2= int(input('Digite outro número inteiro:'))
+if num_1 > num_2:
+  print('O primeiro valor ({}) é maior'.format(num_1))
+elif num_2 > num_1:
+  print('O segundo valor ({}) é maior'.format(num_2))
+else :
+  print('Não existe valor maior, os dois são iguais')
 
