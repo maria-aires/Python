@@ -151,3 +151,20 @@ Desenvolva uma lógica que leia o peso e a altura de uma pessoa, calcule seu Ín
 
 --> IMC = peso ÷ (altura × altura).''''
 
+peso = float (input('Digite seu peso em quilogramas:'))
+altura = float (input('Digite sua altura em metros:'))
+imc = peso /(altura*altura)
+
+print('Seu imc é de {}'.format(imc))
+
+if imc < 18.5:
+  print('Abaixo do Peso')
+elif imc >= 18.5 and imc < 25:
+  print('Peso Ideal')
+elif imc >= 25 and imc < 30:
+  print('Sobrepeso')
+elif imc >= 30 and imc <40:
+  print('Obesidade')
+else:
+  print('Obesidade Mórbida')
+
