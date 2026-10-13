@@ -72,3 +72,15 @@ A Confederação Nacional de Natação precisa de um programa que leia o ano de 
 – Até 25 anos: SÊNIOR
 
 – Acima de 25 anos: MASTER''''
+ano_nasc= int(input('Digite o ano do seu nascimento:'))
+idade= 2026-ano_nasc
+if idade<= 9:
+  print('MIRIM')
+elif idade <=14:
+  print('INFANTIL')
+elif idade <= 19:
+  print('JÚNIOR')
+elif idade <= 25:
+  print('SÊNIOR')
+else:
+  print('MASTER')
