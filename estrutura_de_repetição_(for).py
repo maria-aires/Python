@@ -11,3 +11,7 @@ O valor sempre conta até o valor mas mostra somente até o anterior''''
 for c in range(1,11):
   print(c)
 print('FIM!')
+'''' Para contagem regressiva colocamos o (-1) ''''
+for c in range (10,0,-1):
+  print(c)
+print("FIM!")
