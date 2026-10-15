@@ -80,7 +80,7 @@ soma = 0
 contador = 0
 
 for c in range(1, 7):
-    # Usando o + e o str() apenas no c dentro do input
+
     num = int(input("Digite o " + str(c) + "º valor: "))
 
     if num % 2 == 0:
