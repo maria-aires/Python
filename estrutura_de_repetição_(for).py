@@ -64,3 +64,7 @@ for c in range(3, 501, 3):
     contador += 1 
 
 print(f"A soma de todos os {contador} valores solicitados é {soma}")
+
+"""**Desafio 049**
+
+Refaça o DESAFIO 9, mostrando a tabuada de um número que o usuário escolher, só que agora utilizando um laço for."""
