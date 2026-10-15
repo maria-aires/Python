@@ -15,3 +15,4 @@ print('FIM!')
 for c in range (10,0,-1):
   print(c)
 print("FIM!")
+"""Contando de 2 em 2:"""
