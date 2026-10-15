@@ -39,4 +39,5 @@ print('FIM!')
 
 """ Desafio 046
 
-Faça um programa que mostre na tela uma contagem regressiva para o estouro de fogos de artifício, indo de 10 até 0, com uma pausa de 1 segundo entre eles. """
+Faça um programa que mostre na tela uma contagem regressiva para o estouro de fogos de artifício, indo de 10 até 0, com uma pausa de 1 segundo entre eles.
+->Para colocar a pausa de 1 segundo usamos a biblioteca time, com o comando time.sleep(1)"""
