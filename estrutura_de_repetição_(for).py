@@ -52,3 +52,15 @@ print("POW!")
 Crie um programa que mostre na tela todos os números pares que estão no intervalo entre 1 e 50."""
 for c in range (2,51,2):
   print(c)
+
+"""**Desafio 048**
+
+Faça um programa que calcule a soma entre todos os números que são múltiplos de três e que se encontram no intervalo de 1 até 500."""
+soma = 0
+contador = 0
+
+for c in range(3, 501, 3):
+    soma += c  
+    contador += 1 
+
+print(f"A soma de todos os {contador} valores solicitados é {soma}")
