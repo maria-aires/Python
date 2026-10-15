@@ -25,3 +25,6 @@ for c in range (10,-1,-2):
 print("FIM!")
 
 """pede número ao usuário e mostra contagem:"""
+n = int(input('Digite um número:'))
+for c in range(0,n+1):
+  print(c)
