@@ -23,3 +23,5 @@ print("FIM!")
 for c in range (10,-1,-2):
   print(c)
 print("FIM!")
+
+"""pede número ao usuário e mostra contagem:"""
